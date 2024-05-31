@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-za" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="./styling.css">
+
+<title>Nikilitha Kakaza</title>
+
+</head>
+
+<body>
+<div id="page">
+	<!-- Home division -->
+	<div class="home">
+	<!-- Home division content -->
+	</div>
+	<!-- Services division -->
+	<div class="services">
+	<!-- Services division content -->
+	</div>
+	<!-- Products division -->
+	<div class="products">
+	<!-- Products division content -->
+	</div>
+	<!-- Order Status division -->
+	<div class="orderStatus">
+	<!-- Order Status division content -->
+	</div>
+	<!-- Contact Us division -->
+	<div class="contactUs">
+	<!-- contact Us division content -->
+	</div>
+
+	<!-- Sidebar division -->
+	<div class="sidebar">
+		<img src="swegga.jpg" alt="">
+	</div>
+	
+	<div class="banner">
+		<img src="delivery.gif" alt="">
+	</div>
+	
+	<div class="navigation">
+		<img src="links.gif" alt="navigation" usemap="#workmap"/>
+		
+		<map name="workmap">
+			<area shape="rect" coords="10,5,95,35" alt= "Home" href="./index.html"/>
+			<area shape="rect" coords="105,5,190,35" alt="Services" href="./services.html"/>
+			<area shape="circle" coords="205,5,300,35" alt="Products" href="./products.html"/>
+			<area shape="circle" coords="310,5,440,35" alt="orderStatus" href="./orderStatus.html"/>
+			<area shape="circle" coords="450,5,555,35" alt="contactUs" href="./contactUs.html"/>
+		</map>
+	</div>
+	
+	<footer>
+		<p class="copyright">© 2020 Swegga Fashion - Nikilitha Kakaza</span></p>
+	  </footer>
+	<div id="main">
+
+		<form>
+			<table>
+				<caption>Product Summary</caption>
+				<tr>
+				  <th>Description</th>
+				  <th>Size</th>
+				  <th>Colour</th>
+				  <th>Price</th>
+				  <th>Quantity</th>
+				  <th>Total</th>
+				</tr>
+				<tr>
+					<td id="add"><a href="./female.html">Female Ski Jackets</a></td>
+					<td><label for="Small">
+					<select id="Select">
+					  <option>Small</option>
+					  <option>Medium</option>
+					  <option>Large</option>
+					</select>
+				</label> </td>
+				<td><label for="Red">
+					<select id="Select">
+					  <option>Red</option>
+					  <option>Pink</option>
+					  <option>Black</option>
+					</select>
+				</label></td>
+				<td>150.95</td>
+				  <td id=><input type="text" id="femaleQuantity" name="quantity"><br></td>
+				  <td id="totalPrice"></td>
+				</tr>
+				<tr>
+					<td id="add"><a href="./male.html">Male Ski Jackets</a></td>
+					<td><label for="Small">
+						<select id="Select">
+							<option>Small</option>
+							<option>Medium</option>
+							<option>Large</option>
+						</select>
+					</label></td>
+				  <td><label for="Red">
+					<select id="Select">
+					  <option>Red</option>
+					  <option>Pink</option>
+					  <option>Black</option>
+					</select>
+				 </label></td>
+				 <td>180.95</td>
+				 <td><input type="text" id="maleQuantity" name="quantity"><br></td></td>
+				 <td id="totalPrice2"></td>
+				</tr>
+				<tr>
+					<td colspan="4">Click to comfirm and process your order:</td>
+					<td><button type="button" class="btn btn-outline-primary" id="col">Total Price</button></td>
+					<td id="subTotal"></td>
+				</tr>
+			</table>
+		</form>
+		
+	</div>
+	
+</div>
+<script src="./swegga.js"></script>
+</body>
+</html>
